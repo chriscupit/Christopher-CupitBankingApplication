@@ -118,7 +118,7 @@ function Withdraw(){
             
             (
                 <>
-                    <h5>Deposit Successful</h5>
+                    <h5>Withdraw Successful</h5>
                     Your Current Balance is: ${balance}<br/><br/>
                     <button type="submit" className="btn btn-success" 
                     onClick={clearForm}>Click here to make another withdraw.</button>
