@@ -63,7 +63,7 @@ function CreateAccount(){
                   <>
                   <h5>Success</h5>
                   <h6>{name} ,Your Account has been created
-                    and your initial deposit is $0.00
+                    and your initial balance is $0.00
                   </h6>
                   
                  
