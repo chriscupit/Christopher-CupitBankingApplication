@@ -24,7 +24,7 @@ function CreateAccount(){
         if (!validate(name,     'name'))     return;
         if (!validate(email,    'email'))    return;
         if (!validate(password, 'password')) return;
-        ctx.users.push({name,email,password,balance:100});
+        ctx.users.push({name,email,password,balance:0});
         setShow(false);
       }    
     
